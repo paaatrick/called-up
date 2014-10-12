@@ -5,4 +5,4 @@ A D3.js-powered visualization of MLB teams and their minor league affiliates. In
 
 Data reflects affiliations as of the 2015 season.
 
-Online here: paaatrick.github.io/called-up/
+Online here: http://paaatrick.github.io/called-up/
