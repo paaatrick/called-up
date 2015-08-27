@@ -10,7 +10,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 568,Norfolk Tides,aaa,Triple-A,110,Norfolk,VA,36.84681,-76.28522
 533,Pawtucket Red Sox,aaa,Triple-A,111,Pawtucket,RI,41.87871,-71.38256
 534,Rochester Red Wings,aaa,Triple-A,142,Rochester,NY,43.15478,-77.61556
-531,Scranton/Wilkes-Barre RailRiders,aaa,Triple-A,147,Scranton,PA,41.40897,-75.66241
+531,Scranton/Wilkes-Barre RailRiders,aaa,Triple-A,147,Scranton,PA,41.40916,-75.6649
 552,Syracuse Chiefs,aaa,Triple-A,120,Syracuse,NY,43.04812,-76.14742
 512,Toledo Mud Hens,aaa,Triple-A,116,Toledo,OH,41.66394,-83.55521
 342,Albuquerque Isotopes,aaa,Triple-A,115,Albuquerque,NM,35.08449,-106.65114
@@ -22,7 +22,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 235,Memphis Redbirds,aaa,Triple-A,138,Memphis,TN,35.14953,-90.04898
 556,Nashville Sounds,aaa,Triple-A,133,Nashville,TN,36.16589,-86.78444
 588,New Orleans Zephyrs,aaa,Triple-A,146,Metairie,LA,29.98409,-90.15285
-238,Oklahoma City RedHawks,aaa,Triple-A,119,Oklahoma City,OK,35.46756,-97.51643
+238,Oklahoma City Dodgers,aaa,Triple-A,119,Oklahoma City,OK,35.46756,-97.51643
 541,Omaha Storm Chasers,aaa,Triple-A,118,Papillion,NE,41.15444,-96.04224
 2310,Reno Aces,aaa,Triple-A,109,Reno,NV,39.52963,-119.8138
 102,Round Rock Express,aaa,Triple-A,140,Round Rock,TX,30.50826,-97.6789
@@ -41,9 +41,9 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 522,Reading Fightin Phils,aax,Double-A,143,Reading,PA,40.33565,-75.92687
 3410,Richmond Flying Squirrels,aax,Double-A,137,Richmond,VA,37.55376,-77.46026
 567,Trenton Thunder,aax,Double-A,147,Trenton,NJ,40.21705,-74.74294
+5015,Biloxi Shuckers,aax,Double-A,158,Biloxi,MS,30.39603,-88.88531
 247,Birmingham Barons,aax,Double-A,145,Birmingham,AL,33.52066,-86.80249
 498,Chattanooga Lookouts,aax,Double-A,142,Chattanooga,TN,35.04563,-85.30968
-559,Huntsville Stars,aax,Double-A,158,Huntsville,AL,34.73037,-86.5861
 104,Jackson Generals,aax,Double-A,136,Jackson,TN,35.61452,-88.81395
 564,Jacksonville Suns,aax,Double-A,146,Jacksonville,FL,30.33218,-81.65565
 430,Mississippi Braves,aax,Double-A,144,Pearl,MS,32.271689,-90.146642
@@ -58,7 +58,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 1350,Northwest Arkansas Naturals,aax,Double-A,118,Springdale,AR,36.18674,-94.12881
 510,San Antonio Missions,aax,Double-A,135,San Antonio,TX,29.42412,-98.49363
 440,Springfield Cardinals,aax,Double-A,138,Springfield,MO,37.21533,-93.29824
-260,Tulsa Drillers,aax,Double-A,119,Tulsa,OK,36.15398,-95.99278
+260,Tulsa Drillers,aax,Double-A,119,Tulsa,OK,36.15398,-95.99277
 423,Bakersfield Blaze,afa,Class A Advanced,136,Bakersfield,CA,35.37329,-119.01871
 504,High Desert Mavericks,afa,Class A Advanced,140,Adelanto,CA,34.58277,-117.40922
 401,Inland Empire 66ers,afa,Class A Advanced,108,San Bernardino,CA,34.10834,-117.28977
@@ -81,8 +81,8 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 503,Brevard County Manatees,afa,Class A Advanced,158,Melbourne,FL,28.08363,-80.60811
 2730,Charlotte Stone Crabs,afa,Class A Advanced,139,Port Charlotte,FL,26.97617,-82.09064
 566,Clearwater Threshers,afa,Class A Advanced,143,Clearwater,FL,27.96585,-82.8001
-450,Daytona Cubs,afa,Class A Advanced,113,Daytona Beach,FL,29.21081,-81.02283
-424,Dunedin Blue Jays,afa,Class A Advanced,141,Dunedin,FL,28.01974,-82.77177
+450,Daytona Tortugas,afa,Class A Advanced,113,Daytona Beach,FL,29.21081,-81.02283
+424,Dunedin Blue Jays,afa,Class A Advanced,141,Dunedin,FL,28.0199,-82.77323
 509,Fort Myers Miracle,afa,Class A Advanced,142,Ft. Myers,FL,26.62168,-81.84059
 479,Jupiter Hammerheads,afa,Class A Advanced,146,Jupiter,FL,26.93422,-80.09421
 570,Lakeland Flying Tigers,afa,Class A Advanced,116,Lakeland,FL,28.03947,-81.9498
@@ -125,13 +125,13 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 453,Brooklyn Cyclones,asx,Class A Short Season,121,Brooklyn,NY,40.6501,-73.94958
 571,Connecticut Tigers,asx,Class A Short Season,116,Norwich,CT,41.52426,-72.07591
 537,Hudson Valley Renegades,asx,Class A Short Season,139,Fishkill,NY,41.53565,-73.89903
-489,Jamestown Jammers,asx,Class A Short Season,134,Jamestown,NY,42.15,-79.26667
 558,Lowell Spinners,asx,Class A Short Season,111,Lowell,MA,42.63342,-71.31617
 545,Mahoning Valley Scrappers,asx,Class A Short Season,114,Niles,OH,41.18284,-80.76536
 1174,State College Spikes,asx,Class A Short Season,138,State College,PA,40.79339,-77.86
 586,Staten Island Yankees,asx,Class A Short Season,147,Staten Island,NY,40.56233,-74.13986
 577,Tri-City ValleyCats,asx,Class A Short Season,117,Troy,NY,42.72841,-73.69179
 462,Vermont Lake Monsters,asx,Class A Short Season,133,Winooski,VT,44.49144,-73.18568
+5020,West Virginia Black Bears,asx,Class A Short Season,134,Morgantown,WV,39.62953,-79.9559
 449,Williamsport Crosscutters,asx,Class A Short Season,143,Williamsport,PA,41.24119,-77.00108
 480,Boise Hawks,asx,Class A Short Season,115,Boise,ID,43.6135,-116.20345
 461,Eugene Emeralds,asx,Class A Short Season,112,PK Park,OR,44.05891,-123.06533
@@ -159,24 +159,24 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 506,Kingsport Mets,rok,Rookie,121,Kingsport,TN,36.54843,-82.56182
 455,Princeton Rays,rok,Rookie,139,Princeton,WV,37.36623,-81.10259
 425,Pulaski Yankees,rok,Rookie,147,Pulaski,VA,37.06361,-80.71434
-108,Los Angeles Angels,mlb,Majors,108,Anaheim,CA,33.83529,-117.9145
 109,Arizona Diamondbacks,mlb,Majors,109,Phoenix,AZ,33.44838,-112.07404
 144,Atlanta Braves,mlb,Majors,144,Atlanta,GA,33.749,-84.38798
 110,Baltimore Orioles,mlb,Majors,110,Baltimore,MD,39.29038,-76.61219
 111,Boston Red Sox,mlb,Majors,111,Boston,MA,42.35843,-71.05977
 112,Chicago Cubs,mlb,Majors,112,Chicago,IL,41.85003,-87.65005
+145,Chicago White Sox,mlb,Majors,145,Chicago,IL,41.85003,-87.65005
 113,Cincinnati Reds,mlb,Majors,113,Cincinnati,OH,39.162,-84.45689
 114,Cleveland Indians,mlb,Majors,114,Cleveland,OH,41.4995,-81.69541
 115,Colorado Rockies,mlb,Majors,115,Denver,CO,39.73915,-104.9847
-145,Chicago White Sox,mlb,Majors,145,Chicago,IL,41.85003,-87.65005
 116,Detroit Tigers,mlb,Majors,116,Detroit,MI,42.33143,-83.04575
 117,Houston Astros,mlb,Majors,117,Houston,TX,29.76328,-95.36327
 118,Kansas City Royals,mlb,Majors,118,Kansas City,MO,39.09973,-94.57857
+108,Los Angeles Angels,mlb,Majors,108,Anaheim,CA,33.83529,-117.9145
 119,Los Angeles Dodgers,mlb,Majors,119,Los Angeles,CA,34.05223,-118.24368
 146,Miami Marlins,mlb,Majors,146,Miami,FL,25.77427,-80.19366
 158,Milwaukee Brewers,mlb,Majors,158,Milwaukee,WI,43.0389,-87.90647
 142,Minnesota Twins,mlb,Majors,142,Minneapolis,MN,44.97997,-93.26384
-121,New York Mets,mlb,Majors,121,Flushing,NY,40.76538,-73.81736
+121,New York Mets,mlb,Majors,121,Corona,NY,40.74705,-73.86014
 147,New York Yankees,mlb,Majors,147,Bronx,NY,40.84985,-73.86641
 133,Oakland Athletics,mlb,Majors,133,Oakland,CA,37.80437,-122.2708
 143,Philadelphia Phillies,mlb,Majors,143,Philadelphia,PA,39.95234,-75.16379
