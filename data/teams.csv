@@ -35,7 +35,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 418,Bowie Baysox,aax,Double-A,110,Bowie,MD,38.94278,-76.73028
 106,Erie SeaWolves,aax,Double-A,116,Erie,PA,42.12922,-80.08506
 547,Harrisburg Senators,aax,Double-A,120,Harrisburg,PA,40.2737,-76.88442
-538,New Britain Rock Cats,aax,Double-A,115,New Britain,CT,41.66121,-72.77954
+538,Hartford Yard Goats,aax,Double-A,115,Hartford,CT,41.76371,-72.68509
 463,New Hampshire Fisher Cats,aax,Double-A,141,Manchester,NH,42.99564,-71.45479
 546,Portland Sea Dogs,aax,Double-A,111,Portland,ME,43.66147,-70.25533
 522,Reading Fightin Phils,aax,Double-A,143,Reading,PA,40.33565,-75.92687
@@ -58,7 +58,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 1350,Northwest Arkansas Naturals,aax,Double-A,118,Springdale,AR,36.18674,-94.12881
 510,San Antonio Missions,aax,Double-A,135,San Antonio,TX,29.42412,-98.49363
 440,Springfield Cardinals,aax,Double-A,138,Springfield,MO,37.21533,-93.29824
-260,Tulsa Drillers,aax,Double-A,119,Tulsa,OK,36.15398,-95.99277
+260,Tulsa Drillers,aax,Double-A,119,Tulsa,OK,36.15398,-95.99278
 423,Bakersfield Blaze,afa,Class A Advanced,136,Bakersfield,CA,35.37329,-119.01871
 504,High Desert Mavericks,afa,Class A Advanced,140,Adelanto,CA,34.58277,-117.40922
 401,Inland Empire 66ers,afa,Class A Advanced,108,San Bernardino,CA,34.10834,-117.28977
@@ -83,7 +83,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 566,Clearwater Threshers,afa,Class A Advanced,143,Clearwater,FL,27.96585,-82.8001
 450,Daytona Tortugas,afa,Class A Advanced,113,Daytona Beach,FL,29.21081,-81.02283
 424,Dunedin Blue Jays,afa,Class A Advanced,141,Dunedin,FL,28.0199,-82.77323
-509,Fort Myers Miracle,afa,Class A Advanced,142,Ft. Myers,FL,26.62168,-81.84059
+509,Fort Myers Miracle,afa,Class A Advanced,142,Fort Myers,FL,26.62168,-81.84059
 479,Jupiter Hammerheads,afa,Class A Advanced,146,Jupiter,FL,26.93422,-80.09421
 570,Lakeland Flying Tigers,afa,Class A Advanced,116,Lakeland,FL,28.03947,-81.9498
 279,Palm Beach Cardinals,afa,Class A Advanced,138,Palm Beach,FL,26.71534,-80.05337
@@ -108,6 +108,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 573,Asheville Tourists,afx,Class A,115,Asheville,NC,35.60095,-82.55402
 478,Augusta GreenJackets,afx,Class A,137,Augusta,GA,33.47097,-81.97484
 233,Charleston RiverDogs,afx,Class A,147,Charleston,SC,32.77657,-79.93092
+3705,Columbia Fireflies,afx,Class A,121,Columbia,SC,34.00071,-81.03481
 548,Delmarva Shorebirds,afx,Class A,110,Salisbury,MD,38.36067,-75.59937
 477,Greensboro Grasshoppers,afx,Class A,146,Greensboro,NC,36.07264,-79.79198
 428,Greenville Drive,afx,Class A,111,Greenville,SC,34.85262,-82.39401
@@ -117,7 +118,6 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 427,Lakewood BlueClaws,afx,Class A,143,Lakewood,NJ,40.09789,-74.21764
 495,Lexington Legends,afx,Class A,118,Lexington,KY,37.98869,-84.47772
 432,Rome Braves,afx,Class A,144,Rome,GA,34.25704,-85.16467
-543,Savannah Sand Gnats,afx,Class A,121,Savannah,GA,32.08354,-81.09983
 525,West Virginia Power,afx,Class A,134,Charleston,WV,38.34982,-81.63262
 488,Aberdeen IronBirds,asx,Class A Short Season,110,Aberdeen,MD,39.50956,-76.16412
 458,Auburn Doubledays,asx,Class A Short Season,120,Auburn,NY,42.93173,-76.56605
@@ -127,11 +127,11 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 537,Hudson Valley Renegades,asx,Class A Short Season,139,Fishkill,NY,41.53565,-73.89903
 558,Lowell Spinners,asx,Class A Short Season,111,Lowell,MA,42.63342,-71.31617
 545,Mahoning Valley Scrappers,asx,Class A Short Season,114,Niles,OH,41.18284,-80.76536
-1174,State College Spikes,asx,Class A Short Season,138,State College,PA,40.79339,-77.86
+1174,State College Spikes,asx,Class A Short Season,138,State College,PA,40.7934,-77.86
 586,Staten Island Yankees,asx,Class A Short Season,147,Staten Island,NY,40.56233,-74.13986
 577,Tri-City ValleyCats,asx,Class A Short Season,117,Troy,NY,42.72841,-73.69179
 462,Vermont Lake Monsters,asx,Class A Short Season,133,Winooski,VT,44.49144,-73.18568
-5020,West Virginia Black Bears,asx,Class A Short Season,134,Morgantown,WV,39.62953,-79.9559
+5020,West Virginia Black Bears,asx,Class A Short Season,134,Granville,WV,39.64591,-79.98729
 449,Williamsport Crosscutters,asx,Class A Short Season,143,Williamsport,PA,41.24119,-77.00108
 480,Boise Hawks,asx,Class A Short Season,115,Boise,ID,43.6135,-116.20345
 461,Eugene Emeralds,asx,Class A Short Season,112,PK Park,OR,44.05891,-123.06533
