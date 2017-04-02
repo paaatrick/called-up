@@ -21,7 +21,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 400,Las Vegas 51s,aaa,Triple-A,121,Las Vegas,NV,36.17497,-115.13722
 235,Memphis Redbirds,aaa,Triple-A,138,Memphis,TN,35.14953,-90.04898
 556,Nashville Sounds,aaa,Triple-A,133,Nashville,TN,36.16589,-86.78444
-588,New Orleans Zephyrs,aaa,Triple-A,146,Metairie,LA,29.98409,-90.15285
+588,New Orleans Baby Cakes,aaa,Triple-A,146,Metairie,LA,29.975442,-90.199742
 238,Oklahoma City Dodgers,aaa,Triple-A,119,Oklahoma City,OK,35.46756,-97.51643
 541,Omaha Storm Chasers,aaa,Triple-A,118,Papillion,NE,41.15444,-96.04224
 2310,Reno Aces,aaa,Triple-A,109,Reno,NV,39.52963,-119.8138
@@ -31,7 +31,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 529,Tacoma Rainiers,aaa,Triple-A,136,Tacoma,WA,47.25288,-122.44429
 402,Akron RubberDucks,aax,Double-A,114,Akron,OH,41.08144,-81.51901
 452,Altoona Curve,aax,Double-A,134,Altoona,PA,40.51868,-78.39474
-505,Binghamton Mets,aax,Double-A,121,Binghamton,NY,42.09869,-75.91797
+505,Binghamton Rumble Ponies,aax,Double-A,121,Binghamton,NY,42.102769,-75.904988
 418,Bowie Baysox,aax,Double-A,110,Bowie,MD,38.94278,-76.73028
 106,Erie SeaWolves,aax,Double-A,116,Erie,PA,42.12922,-80.08506
 547,Harrisburg Senators,aax,Double-A,120,Harrisburg,PA,40.2737,-76.88442
@@ -44,14 +44,14 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 5015,Biloxi Shuckers,aax,Double-A,158,Biloxi,MS,30.39603,-88.88531
 247,Birmingham Barons,aax,Double-A,145,Birmingham,AL,33.52066,-86.80249
 498,Chattanooga Lookouts,aax,Double-A,142,Chattanooga,TN,35.04563,-85.30968
-104,Jackson Generals,aax,Double-A,136,Jackson,TN,35.61452,-88.81395
-564,Jacksonville Suns,aax,Double-A,146,Jacksonville,FL,30.33218,-81.65565
+104,Jackson Generals,aax,Double-A,109,Jackson,TN,35.61452,-88.81395
+564,Jacksonville Jumbo Shrimp,aax,Double-A,146,Jacksonville,FL,30.324968,-81.643069
 430,Mississippi Braves,aax,Double-A,144,Pearl,MS,32.271689,-90.146642
-417,Mobile BayBears,aax,Double-A,109,Mobile,AL,30.69436,-88.04305
+417,Mobile BayBears,aax,Double-A,108,Mobile,AL,30.69436,-88.04305
 421,Montgomery Biscuits,aax,Double-A,139,Montgomery,AL,32.36681,-86.29997
 4124,Pensacola Blue Wahoos,aax,Double-A,113,Pensacola,FL,30.42131,-87.21691
 553,Tennessee Smokies,aax,Double-A,112,Kodak,TN,35.97453,-83.62684
-574,Arkansas Travelers,aax,Double-A,108,Little Rock,AR,34.74648,-92.28959
+574,Arkansas Travelers,aax,Double-A,136,Little Rock,AR,34.74648,-92.28959
 482,Corpus Christi Hooks,aax,Double-A,117,Corpus Christi,TX,27.80058,-97.39638
 540,Frisco RoughRiders,aax,Double-A,140,Frisco,TX,33.15067,-96.82361
 237,Midland RockHounds,aax,Double-A,133,Midland,TX,31.99735,-102.07791
@@ -59,17 +59,18 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 510,San Antonio Missions,aax,Double-A,135,San Antonio,TX,29.42412,-98.49363
 440,Springfield Cardinals,aax,Double-A,138,Springfield,MO,37.21533,-93.29824
 260,Tulsa Drillers,aax,Double-A,119,Tulsa,OK,36.15398,-95.99278
-423,Bakersfield Blaze,afa,Class A Advanced,136,Bakersfield,CA,35.37329,-119.01871
-504,High Desert Mavericks,afa,Class A Advanced,140,Adelanto,CA,34.58277,-117.40922
+3712,Buies Creek Astros,afa,Class A Advanced,117,Lillington,NC,35.41049,-78.73546
+485,Down East Wood Ducks,afa,Class A Advanced,140,Kinston,NC,35.270000,-77.574167
+503,Florida Fire Frogs,afa,Class A Advanced,144,Kissimmee,FL,28.298333,-81.363889
 401,Inland Empire 66ers,afa,Class A Advanced,108,San Bernardino,CA,34.10834,-117.28977
 103,Lake Elsinore Storm,afa,Class A Advanced,135,Lake Elsinore,CA,33.66808,-117.32726
-491,Lancaster JetHawks,afa,Class A Advanced,117,Lancaster,CA,34.69804,-118.13674
-515,Modesto Nuts,afa,Class A Advanced,115,Modesto,CA,37.6391,-120.99688
+491,Lancaster JetHawks,afa,Class A Advanced,115,Lancaster,CA,34.69804,-118.13674
+515,Modesto Nuts,afa,Class A Advanced,136,Modesto,CA,37.6391,-120.99688
 526,Rancho Cucamonga Quakes,afa,Class A Advanced,119,Rancho Cucamonga,CA,34.1064,-117.59311
 476,San Jose Giants,afa,Class A Advanced,137,San Jose,CA,37.33939,-121.89496
 524,Stockton Ports,afa,Class A Advanced,133,Stockton,CA,37.9577,-121.29078
 516,Visalia Rawhide,afa,Class A Advanced,109,Visalia,CA,36.33023,-119.29206
-249,Carolina Mudcats,afa,Class A Advanced,144,Zebulon,NC,35.82432,-78.31472
+249,Carolina Mudcats,afa,Class A Advanced,158,Zebulon,NC,35.82432,-78.31472
 493,Frederick Keys,afa,Class A Advanced,110,Frederick,MD,39.41427,-77.41054
 481,Lynchburg Hillcats,afa,Class A Advanced,114,Lynchburg,VA,37.41375,-79.14225
 521,Myrtle Beach Pelicans,afa,Class A Advanced,112,Myrtle Beach,SC,33.68906,-78.88669
@@ -78,7 +79,6 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 426,Wilmington Blue Rocks,afa,Class A Advanced,118,Wilmington,DE,39.74595,-75.54659
 580,Winston-Salem Dash,afa,Class A Advanced,145,Winston-Salem,NC,36.09986,-80.24422
 3390,Bradenton Marauders,afa,Class A Advanced,134,Bradenton,FL,27.49893,-82.57482
-503,Brevard County Manatees,afa,Class A Advanced,158,Melbourne,FL,28.08363,-80.60811
 2730,Charlotte Stone Crabs,afa,Class A Advanced,139,Port Charlotte,FL,26.97617,-82.09064
 566,Clearwater Threshers,afa,Class A Advanced,143,Clearwater,FL,27.96585,-82.8001
 450,Daytona Tortugas,afa,Class A Advanced,113,Daytona Beach,FL,29.21081,-81.02283
