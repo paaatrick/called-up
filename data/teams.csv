@@ -114,8 +114,8 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 428,Greenville Drive,afx,Class A,111,Greenville,SC,34.847165,-82.406049
 563,Hagerstown Suns,afx,Class A,120,Hagerstown,MD,39.632022,-77.737215
 448,Hickory Crawdads,afx,Class A,140,Hickory,NC,35.75757,-81.328858
+427,Jersey Shore BlueClaws,afx,Class A,143,Lakewood,NJ,40.085043,-74.204199
 487,Kannapolis Cannon Ballers,afx,Class A,145,Kannapolis,NC,35.484807,-80.601536
-427,Lakewood BlueClaws,afx,Class A,143,Lakewood,NJ,40.085043,-74.204199
 495,Lexington Legends,afx,Class A,118,Lexington,KY,38.061201,-84.458338
 432,Rome Braves,afx,Class A,144,Rome,GA,34.250726,-85.146501
 525,West Virginia Power,afx,Class A,136,Charleston,WV,38.349,-81.630606
@@ -141,16 +141,6 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 486,Spokane Indians,asx,Class A Short Season,140,Spokane,WA,47.654741,-117.380972
 460,Tri-City Dust Devils,asx,Class A Short Season,135,Pasco,WA,46.249183,-119.104387
 435,Vancouver Canadians,asx,Class A Short Season,141,Vancouver,BC,49.24966,-123.11934
-517,Bluefield Blue Jays,roa,Rookie Advanced,141,Bluefield,WV,37.2698395,-81.2223195
-557,Bristol Pirates,roa,Rookie Advanced,134,Bristol,VA,36.618093,-82.182297
-483,Burlington Royals,roa,Rookie Advanced,118,Burlington,NC,36.1288,-79.411447
-429,Danville Braves,roa,Rookie Advanced,144,Danville,VA,36.621789,-79.412441
-576,Elizabethton Twins,roa,Rookie Advanced,142,Elizabethton,TN,36.344548,-82.201481
-413,Greeneville Reds,roa,Rookie Advanced,113,Greeneville,TN,36.131582,-82.869219
-438,Johnson City Cardinals,roa,Rookie Advanced,138,Johnson City,TN,36.333872,-82.340775
-506,Kingsport Mets,roa,Rookie Advanced,121,Kingsport,TN,36.520834,-82.516835
-455,Princeton Rays,roa,Rookie Advanced,139,Princeton,WV,37.379876,-81.117475
-425,Pulaski Yankees,roa,Rookie Advanced,147,Pulaski,VA,37.056708,-80.770961
 513,Billings Mustangs,roa,Rookie Advanced,113,Billings,MT,45.774489,-108.500452
 4364,Grand Junction Rockies,roa,Rookie Advanced,115,Grand Junction,CO,39.078326,-108.545692
 581,Great Falls Voyagers,roa,Rookie Advanced,145,Great Falls,MT,47.509812,-111.273397
