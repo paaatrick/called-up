@@ -25,6 +25,10 @@ def get_zip_coords(zip):
     return (postalCodes[0]['lat'], postalCodes[0]['lng'])
 
 def get_city_coords(city, state):
+    # the mlb api thinks worcester is in rhode island
+    if (city == 'Worcester' and state == 'RI'):
+        state = 'MA'
+    
     params = (
         ('q', city + ' ' + state),
         ('type', 'json'),
@@ -55,20 +59,11 @@ with open('teams.csv', 'wb') as csvfile:
         params = (
             ('all_star_sw', "'N'"),
             ('active_sw', "'Y'"),
-            ('league', "'INT'"),
-            ('league', "'PCL'"),
-            ('league', "'EAS'"),
-            ('league', "'SOU'"),
-            ('league', "'TEX'"),
-            ('league', "'CAL'"),
-            ('league', "'CAR'"),
-            ('league', "'FSL'"),
-            ('league', "'MID'"),
-            ('league', "'SAL'"),
-            ('league', "'NWL'"),
-            ('league', "'NYP'"),
-            ('league', "'APP'"),
-            ('league', "'PIO'"),
+            ('sport_code', "'mlb'"),
+            ('sport_code', "'aaa'"),
+            ('sport_code', "'aax'"),
+            ('sport_code', "'afa'"),
+            ('sport_code', "'afx'"),
             ('team_all.col_in', 'team_id'),
             ('team_all.col_in', 'name_display_full'),
             ('team_all.col_in', 'sport_code'),
