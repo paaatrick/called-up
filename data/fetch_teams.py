@@ -1,6 +1,7 @@
 import csv
 import json
-import urllib
+import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 
 GEONAMES_UNAME = open('.geonames_username').read()
@@ -16,10 +17,11 @@ def get_zip_coords(zip):
         ('country', 'CA'),
         ('username', GEONAMES_UNAME)
     )
-    url = 'http://api.geonames.org/postalCodeSearchJSON?' + urllib.urlencode(params)
-    print url
-    response = json.load(urllib.urlopen(url))
-    postalCodes = response['postalCodes']
+    url = 'http://api.geonames.org/postalCodeSearchJSON?' + urllib.parse.urlencode(params)
+    print(url)
+    with urllib.request.urlopen(url) as response:
+        body = json.load(response)
+    postalCodes = body['postalCodes']
     if (len(postalCodes) == 0):
         raise Exception('no postal codes found')
     return (postalCodes[0]['lat'], postalCodes[0]['lng'])
@@ -37,15 +39,16 @@ def get_city_coords(city, state):
         ('country', 'CA'),
         ('username', GEONAMES_UNAME)
     )
-    url = 'http://api.geonames.org/search?' + urllib.urlencode(params)
-    print url
-    response = json.load(urllib.urlopen(url))
-    geo = response['geonames']
+    url = 'http://api.geonames.org/search?' + urllib.parse.urlencode(params)
+    print(url)
+    with urllib.request.urlopen(url) as response:
+        body = json.load(response)
+    geo = body['geonames']
     return (geo[0]['lat'], geo[0]['lng'])
     
 
-with open('teams.csv', 'wb') as csvfile:
-    with open('colors.csv', 'wb') as colors:
+with open('teams.csv', 'w') as csvfile:
+    with open('colors.csv', 'w') as colors:
         writer = csv.writer(csvfile)
         writer.writerow(('team_id', 'team', 'level', 'level_display', 
                          'affiliate_id', 'city', 'state', 'latitude', 'longitude'))
@@ -75,8 +78,9 @@ with open('teams.csv', 'wb') as csvfile:
             ('team_all.col_in', 'venue_name'),
             ('team_all.col_in', 'address_zip')
         )
-        resp = json.load(urllib.urlopen(milb_team_url + urllib.urlencode(params)))
-        for team in resp['team_all']['queryResults']['row']:
+        with urllib.request.urlopen(milb_team_url + urllib.parse.urlencode(params)) as response:
+            body = json.load(response)
+        for team in body['team_all']['queryResults']['row']:
             if not team['mlb_org_id']:
                 continue
             try:
@@ -92,7 +96,8 @@ with open('teams.csv', 'wb') as csvfile:
     
         # get MLB team information
         mlb_team_url = 'http://www.mlb.com/properties/mlb_properties.xml'
-        xml = ET.parse(urllib.urlopen(mlb_team_url))
+        with urllib.request.urlopen(mlb_team_url) as response:
+            xml = ET.parse(response)
         for team_el in xml.findall('.//team'):
             team = team_el.attrib
             (lat, lon) = get_city_coords(team['city'], team['state_province'])
@@ -104,5 +109,5 @@ with open('teams.csv', 'wb') as csvfile:
                                    team['tertiary']))
             url = 'http://mlb.mlb.com/mlb/images/team_logos/logo_{0}_79x76.jpg'.format(
                 team['display_code'])
-            print url
-            urllib.urlretrieve(url, '../img/{0}.jpg'.format(team['team_id']))
+            print(url)
+            urllib.request.urlretrieve(url, '../img/{0}.jpg'.format(team['team_id']))
