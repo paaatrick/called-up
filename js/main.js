@@ -226,7 +226,7 @@ queue()
       
       $modalTitle.fadeOut({
         done: function () {
-          $modalTitle.css("background-image", "url(img/" + d.key + ".jpg)");
+          $modalTitle.css("background-image", "url(img/" + d.key + ".png)");
           $modalTitle.text(d.majTeamName);
           $modalTitle.fadeIn();
         }
