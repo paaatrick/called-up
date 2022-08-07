@@ -263,8 +263,7 @@ queue()
 
     lg_svg = d3.select("#large-map-target")
       .append("svg")
-      .attr("width", width)
-      .attr("height", height);
+      .attr("viewBox", "0 0 " + width + " " + height);
     lg_svg.append("path")
       .datum(topojson.feature(na, na.objects.north_am))
       .attr("d", large.path)

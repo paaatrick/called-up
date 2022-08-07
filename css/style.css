@@ -38,7 +38,19 @@ body {
 
 .team text {
   fill: #444444;
-  font: 10px sans-serif;
+  font: 20px sans-serif;
+}
+
+@media (min-width: 768px) {
+  .team text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .team text {
+    font-size: 12px;
+  }
 }
 
 .route {
@@ -63,10 +75,6 @@ body {
   text-align: center;
   margin: 0.1em;
   font-size: 0.8em;
-}
-
-.modal-dialog {
-  width: 850px;
 }
 
 .modal-content {
