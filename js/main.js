@@ -226,8 +226,8 @@ queue()
       
       $modalTitle.fadeOut({
         done: function () {
-          $modalTitle.css("background-image", "url(img/" + d.key + ".png)");
-          $modalTitle.text(d.majTeamName);
+          $modalTitle.find('.team-logo').attr("src", "img/" + d.key + ".svg");
+          $modalTitle.find('.team-name').text(d.majTeamName);
           $modalTitle.fadeIn();
         }
       });

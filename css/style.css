@@ -85,10 +85,14 @@ body {
   border: none;
 }
 
-.modal-title {
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-left: 40px;
+.modal-title-inner {
+  display: flex;
+  align-items: center;
+}
+
+.team-logo {
+  height: 35px;
+  margin-right: 8px;
 }
 
 .modal-body {
