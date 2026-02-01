@@ -51,12 +51,17 @@ with open(f"{HERE}/teams.csv", "w") as csv_file:
     for team in teams["teams"]:
         venue = venues_by_id[team["venue"]["id"]]
         location = venue["location"]
-        coords = location["defaultCoordinates"]
-        latitude = coords["latitude"]
-        longitude = coords["longitude"]
-        if latitude < 0:
-            # It looks like lat and lon got switched for some teams
-            latitude, longitude = longitude, latitude
+        try:
+            coords = location["defaultCoordinates"]
+            latitude = coords["latitude"]
+            longitude = coords["longitude"]
+            if latitude < 0:
+                # It looks like lat and lon got switched for some teams
+                latitude, longitude = longitude, latitude
+        except KeyError:
+            print(f"Cannot get coordinates from: {venue}")
+            latitude = 'FIXME'
+            longitude = 'FIXME'
 
         writer.writerow(
             (

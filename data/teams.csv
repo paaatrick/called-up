@@ -1,14 +1,13 @@
 team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 512,Toledo Mud Hens,aaa,AAA,116,Toledo,OH,41.64767,-83.53838
 259,Fresno Grizzlies,afx,A,115,Fresno,CA,36.73256,-119.79157
-515,Modesto Nuts,afx,A,136,Modesto,CA,37.622321,-121.000956
 260,Tulsa Drillers,aax,AA,119,Tulsa,OK,36.1601215,-95.9888782
 516,Visalia Rawhide,afx,A,109,Visalia,CA,36.3320197,-119.3053325
 2310,Reno Aces,aaa,AAA,109,Reno,NV,39.52812,-119.80901
 521,Myrtle Beach Pelicans,afx,A,112,Myrtle Beach,SC,33.711404,-78.88444
 522,Reading Fightin Phils,aax,AA,143,Reading,PA,40.365558,-75.933816
 524,Stockton Ports,afx,A,133,Stockton,CA,37.954863,-121.297357
-526,Rancho Cucamonga Quakes,afx,A,119,Rancho Cucamonga,CA,34.102721,-117.54792
+526,Rancho Cucamonga Quakes,afx,A,108,Rancho Cucamonga,CA,34.102721,-117.54792
 529,Tacoma Rainiers,aaa,AAA,136,Tacoma,WA,47.237981,-122.497643
 531,Scranton/Wilkes-Barre RailRiders,aaa,AAA,147,Moosic,PA,41.360672,-75.683676
 533,Worcester Red Sox,aaa,AAA,111,Worcester,MA,42.25606,-71.80028
@@ -46,6 +45,7 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 582,West Michigan Whitecaps,afa,A+,116,Comstock Park,MI,43.040797,-85.65933
 584,Fort Wayne TinCaps,afa,A+,135,Fort Wayne,IN,41.07345,-85.14366
 587,Tampa Tarpons,afx,A,147,Tampa,FL,27.97997,-82.50702
+6482,Ontario Tower Buzzers,afx,A,119,Ontario,CA,34.0184639834586,-117.60331808557788
 3410,Richmond Flying Squirrels,aax,AA,137,Richmond,VA,37.571749,-77.463391
 342,Albuquerque Isotopes,aaa,AAA,115,Albuquerque,NM,35.06985,-106.62802
 102,Round Rock Express,aaa,AAA,140,Round Rock,TX,30.527463,-97.630397
@@ -75,25 +75,25 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 136,Seattle Mariners,mlb,MLB,136,Seattle,WA,47.591333,-122.33251
 137,San Francisco Giants,mlb,MLB,137,San Francisco,CA,37.778383,-122.389448
 138,St. Louis Cardinals,mlb,MLB,138,St. Louis,MO,38.62256667,-90.19286667
-139,Tampa Bay Rays,mlb,MLB,139,Tampa,FL,27.97997,-82.50702
+139,Tampa Bay Rays,mlb,MLB,139,St. Petersburg,FL,27.767778,-82.6525
 140,Texas Rangers,mlb,MLB,140,Arlington,TX,32.747299,-97.081818
 141,Toronto Blue Jays,mlb,MLB,141,Toronto,ON,43.64155,-79.38915
 142,Minnesota Twins,mlb,MLB,142,Minneapolis,MN,44.981829,-93.277891
 143,Philadelphia Phillies,mlb,MLB,143,Philadelphia,PA,39.90539086,-75.16716957
 400,Las Vegas Aviators,aaa,AAA,133,Las Vegas,NV,36.152607,-115.329888
 144,Atlanta Braves,mlb,MLB,144,Atlanta,GA,33.890672,-84.467641
-401,Inland Empire 66ers,afx,A,108,San Bernardino,CA,34.097266,-117.296268
+401,Inland Empire 66ers,afx,A,136,San Bernardino,CA,34.097266,-117.296268
 145,Chicago White Sox,mlb,MLB,145,Chicago,IL,41.83,-87.634167
 402,Akron RubberDucks,aax,AA,114,Akron,OH,41.07739,-81.52185
 146,Miami Marlins,mlb,MLB,146,Miami,FL,25.77796236,-80.21951795
 403,Everett AquaSox,afa,A+,136,Everett,WA,47.966664,-122.202786
 147,New York Yankees,mlb,MLB,147,Bronx,NY,40.82919482,-73.9264977
 5015,Biloxi Shuckers,aax,AA,158,Biloxi,MS,30.395421,-88.893217
-414,Salem Red Sox,afx,A,111,Salem,VA,37.2861162,-80.037161
+414,Salem RidgeYaks,afx,A,111,Salem,VA,37.2861162,-80.037161
 158,Milwaukee Brewers,mlb,MLB,158,Milwaukee,WI,43.02838,-87.97099
 416,Louisville Bats,aaa,AAA,113,Louisville,KY,38.2557199,-85.74479
 418,Chesapeake Baysox,aax,AA,110,Bowie,MD,38.946114,-76.709334
-419,Hillsboro Hops,afa,A+,109,Hillsboro,OR,45.5536,-122.908511
+419,Hillsboro Hops,afa,A+,109,Hillsboro,OR,45.554,-122.9085
 1956,Somerset Patriots,aax,AA,147,Bridgewater,NJ,40.56081907,-74.55328462
 421,Montgomery Biscuits,aax,AA,139,Montgomery,AL,32.382298,-86.310592
 422,Buffalo Bisons,aaa,AAA,141,Buffalo,NY,42.880772,-78.873955
@@ -132,20 +132,20 @@ team_id,team,level,level_display,affiliate_id,city,state,latitude,longitude
 484,Indianapolis Indians,aaa,AAA,134,Indianapolis,IN,39.7657354,-86.1682918
 486,Spokane Indians,afa,A+,115,Spokane,WA,47.661351,-117.344426
 487,Kannapolis Cannon Ballers,afx,A,145,Kannapolis,NC,35.4968555,-80.6282677
-488,Aberdeen IronBirds,afa,A+,110,Aberdeen,MD,39.5316851,-76.1855591
 233,Charleston RiverDogs,afx,A,139,Charleston,SC,32.790421,-79.961332
 234,Durham Bulls,aaa,AAA,139,Durham,NC,35.99158,-78.90401
 235,Memphis Redbirds,aaa,AAA,138,Memphis,TN,35.14297,-90.04924
 492,Cedar Rapids Kernels,afa,A+,142,Cedar Rapids,IA,41.96785,-91.68662
+493,Frederick Keys,afa,A+,110,Frederick,MD,39.401583,-77.413791
 237,Midland RockHounds,aax,AA,133,Midland,TX,31.98835,-102.15482
 494,Charlotte Knights,aaa,AAA,145,Charlotte,NC,35.22781,-80.84823
 238,Oklahoma City Comets,aaa,AAA,119,Oklahoma City,OK,35.46511,-97.50762
-498,Chattanooga Lookouts,aax,AA,113,Chattanooga,TN,35.05449,-85.31384
+498,Chattanooga Lookouts,aax,AA,113,Chattanooga,TN,35.02602956034051,-85.32085229852302
 499,Lansing Lugnuts,afa,A+,133,Lansing,MI,42.73465,-84.5455999
 247,Birmingham Barons,aax,AA,145,Birmingham,AL,33.5077928,-86.8120366
 5368,Amarillo Sod Poodles,aax,AA,109,Amarillo,TX,35.2050189,-101.8339567
 505,Binghamton Rumble Ponies,aax,AA,121,Binghamton,NY,42.1031199,-75.90379
-249,Carolina Mudcats,afx,A,158,Zebulon,NC,35.81726,-78.27122
+249,Wilson Warbirds,afx,A,158,Wilson,NC,35.721158405791265,-77.91464174634288
 507,St. Lucie Mets,afx,A,121,Port St. Lucie,FL,27.3249268,-80.4068854
 509,Fort Myers Mighty Mussels,afx,A,142,Fort Myers,FL,26.537803,-81.841973
 510,San Antonio Missions,aax,AA,135,San Antonio,TX,29.40978,-98.60189
